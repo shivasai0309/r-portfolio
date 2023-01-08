@@ -1,0 +1,278 @@
+
+body{
+    font-family: 'Quicksand',sans-serif;
+    margin: 0rem;
+    text-align: center;
+    background-image: 
+    linear-gradient(to bottom right,
+    rgb(250, 150, 166),
+    rgb(164, 244, 172),
+    rgb(90, 193, 253));
+    font-weight: 0;
+}
+
+a{
+    text-decoration: none; 
+    color:rgb(43, 43, 43) ;
+    font-family: 'Fredoka one',sans-serif;
+    letter-spacing: 1px;
+}
+a:hover{
+    color:rgb(179, 94, 254);
+}
+.nav{
+    margin: 0 auto 2rem auto;
+    position: relative;
+    height: 90px;
+}
+.top-logo{
+    width: 3rem;
+    position: absolute;
+    top: 1.50rem;
+    left: 8rem;
+}
+.sig{
+    font-family: 'Sacramento',sans-serif;
+    color: red;
+    position: absolute;
+    left: 130px;
+    top: 40px;
+    transform: rotate(-40deg);
+    visibility: hidden;
+    cursor:default;
+}
+.top-logo:hover + .sig{ 
+    visibility: visible;
+}
+.nav-list {
+    display: flex;
+    list-style-type:none ;
+    position:absolute;
+    right: 8rem;
+    
+}
+ul img{
+    width: 3rem;
+}
+li{
+    margin: 0 1rem;
+}
+
+.nav-resume-about{
+    text-decoration: none;
+    font-size: x-large;
+    padding-top: 10px;
+}
+
+/*    navigation completed */
+
+/* look begins*/
+.look{
+    max-width: 20%;
+    min-width: 250px;
+    padding-top: 70px;
+    padding-bottom: 70px; 
+    margin: 100px auto 130px auto ;
+    background-color: black;
+    color: whitesmoke;
+    border-style:solid;
+    border-radius:60% 40% 40% 40% / 70% 50% 40% 35%;
+    border-color:#85d8d8;
+    border-width: 1rem;
+    cursor: default;
+
+}
+h1{
+    margin: 0;
+    font-size: 60px;
+    font-family: 'Sacramento', 'Arial Narrow Bold', sans-serif;
+}
+h2{
+    letter-spacing: 2px;
+}
+.look p{
+    margin: 0 ;
+    font-size: large;
+}
+.backback{
+    background-image: linear-gradient(to bottom right,rgb(250, 150, 166),
+    transparent,rgb(90, 193, 253));
+}
+.curl1{
+    position: relative;
+    top: 5px;
+}
+.curl2{
+    position: relative;
+    bottom: 5px;
+}
+
+/* skills and projects*/
+
+
+hr{
+    border:dotted #7ee2e2 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 20px auto;
+}
+
+.skills{
+    background-color: black;
+    color: whitesmoke;
+    padding-top: 80px;
+}
+h2{
+    margin-top: 0;
+}
+.skills img{
+    width: 150px;
+    height: 150px;
+    margin: 30px auto 130px auto;
+}
+.projects{
+    background-color: black;
+    color: whitesmoke;
+}
+.project{
+    padding-top: 80px;
+
+}
+.project-row{
+    display: inline-block;
+    width: 250px;
+    height: 300px;
+    overflow: hidden;
+    margin: 30px 20px 120px auto;
+    padding-bottom: 20px;
+    border-style: dotted;
+    border-radius: 20px;
+    border-color:#85d8d8;
+    background-color: rgb(55, 55, 55);
+}
+.project-row img{
+    border-radius: 15px;
+    width: 90%;
+}
+
+/*    about    */
+
+.about-bimage{
+    background-image: url('https://img.freepik.com/free-vector/blue-sky-with-clouds-background-elegant_1017-26302.jpg?w=996&t=st=1673040458~exp=1673041058~hmac=93408398951720beaeb0fe17f12d1bdace0d50a1a56fa0aa0f4227dfee784a9c');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.about{
+    padding: 100px;
+}
+.about p{
+    line-height: 2;
+    width: 50%;
+    font-weight: bold;
+    margin: 30px auto 50px auto;
+}
+
+/*     footer    */
+
+footer{
+    background-color: black;
+    display: flex;    
+}
+.foot{
+    width: 50%;
+    margin: 50px auto 10px auto;
+    color: slategray;
+}
+footer a{
+    color: aliceblue;
+    text-decoration: none;
+    margin:auto 20px auto 20px ;
+}
+
+
+/*        responsive drop down*/
+
+.icon{
+    display: none;
+    position: fixed;
+    top: 2.5%;
+    right: 2.5%;
+    text-align: right;
+}
+
+.dropdown-content{
+    display: none;
+    position: relative;
+    bottom: 5px;
+    background-color: #ffffff;
+    border-radius: 10px 0px 10px 30px;
+    border: 1px solid rgb(154, 154, 154);
+    padding: 3px;
+    box-shadow: 2px 1px rgb(152, 152, 152);
+}
+.dropdown-content a{
+    display: block;
+    color: #000000;
+    margin: 15px;
+    font-family: 'Quicksand',sans-serif;
+    font-weight: 600;
+}
+
+.show{
+    display: block;
+}
+
+
+/*     responsive     */
+
+@media  screen and (max-width:600px){
+ 
+    .icon{
+        display: block;
+        position: absolute;
+       
+    }
+    .nav-list {
+        display: none;
+    }
+    .top-logo,.sig{
+        position: absolute;
+        left: 3%;
+    }
+    .nav-list{
+        position: absolute;
+        right: 0.5rem;
+    }
+    .curl2{
+        position: relative;
+        bottom: 8.5px;
+    }
+    .about{
+        padding: 0;
+    }
+    .about p{
+        width: 90%;
+        line-height: 1.5;
+    }
+    .foot{
+        width: 90%;
+    }
+    .project-row{
+        width:200px ;
+        height:230px ;
+        margin-bottom: 10px;
+    }
+    .skills img{
+        width: 120px;
+        height: 120px;
+        margin: 10px auto 70px auto;
+    }
+    .break{
+        display: none;
+    }
+}
+
+
