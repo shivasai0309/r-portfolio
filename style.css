@@ -152,7 +152,13 @@ h2{
 }
 .project-row img{
     border-radius: 15px;
-    width: 90%;
+    width: 95%;
+    margin-top: 10px;
+}
+
+.project-row p{
+    color:aquamarine;
+    margin: 0px 15px;
 }
 
 /*    about    */
