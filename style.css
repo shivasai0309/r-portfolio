@@ -149,10 +149,11 @@ h2{
     border-radius: 20px;
     border-color:#85d8d8;
     background-color: rgb(55, 55, 55);
+    padding-top: 20px;
 }
 .project-row img{
     border-radius: 15px;
-    width: 95%;
+    width: 100%;
     margin-top: 10px;
 }
 
