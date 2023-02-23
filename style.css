@@ -156,9 +156,11 @@ h2{
     width: 100%;
     margin-top: 10px;
 }
-
+.project-row h3{
+    color: bisque;
+}
 .project-row p{
-    color:aquamarine;
+    color:rgb(42, 214, 249);
     margin: 0px 15px;
 }
 
