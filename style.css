@@ -153,20 +153,20 @@ h2{
 }
 .project-row img{
     border-radius: 15px;
-    width: 100%;
-    margin: 5px 20px 0px 5px;
+    width: 95%;
+    margin-top: 5px;
 }
 .project-row h2{
     color: rgb(255, 255, 255);
     margin-top: 5px;
-    font-weight:normal;
+    font-weight: 100;
 }
-.para{
+.project-row p{
     color:rgb(181, 243, 255);
     margin: 0px 10px;
-    font-weight:lighter;
+    font-family:'Quicksand',sans-serif;
+    font-weight:normal;
 }
-
 /*    about    */
 
 .about-bimage{
