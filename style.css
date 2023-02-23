@@ -154,15 +154,16 @@ h2{
 .project-row img{
     border-radius: 15px;
     width: 100%;
-    margin-top: 5px 5px 0px 5px;
+    margin: 5px 5px 0px 5px;
 }
-.project-row h3{
-    color: bisque;
+.project-row h2{
+    color: rgb(255, 255, 255);
     margin-top: 5px;
 }
-.project-row p{
-    color:rgb(42, 214, 249);
-    margin: 0px 15px;
+.para{
+    color:rgb(181, 243, 255);
+    margin: 0px 10px;
+    font-weight: 100;
 }
 
 /*    about    */
