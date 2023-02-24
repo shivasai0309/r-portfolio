@@ -285,6 +285,12 @@ footer a{
     .break{
         display: none;
     }
+    .project-row p{
+        font-size: 12px;
+    }
+    .project-row h2{
+        font-size: 20px;
+    }
 }
 
 
